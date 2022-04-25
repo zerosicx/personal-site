@@ -92,10 +92,6 @@ p{
 
 .subtitle{
   color: #e8e8e8;
-  margin: 0;
-  position: relative;
-  bottom: 15px;
-  left: 30px;
 }
 
 .earth-img{
@@ -104,4 +100,41 @@ p{
 
 .credit{
   color: #252525;
+}
+
+fieldset{
+  color: white;
+  width: 500px;
+  margin: auto;
+  border: 1px solid #e8e8e8;
+}
+
+label.field{
+  text-align: left;
+  width: 80px;
+  float: left;
+
+}
+
+input.textbox{
+  width: 150px;
+  float:left;
+  border: 1px solid #397d68;
+  border-radius: 4px;
+}
+
+fieldset p{
+  color: #e8e8e8;
+  clear: both;
+  padding: 5px;
+}
+
+textarea{
+  float: left;
+  border: 1px solid #397d68;
+  border-radius: 4px;
+}
+
+input.button{
+  width: 80px;
 }
