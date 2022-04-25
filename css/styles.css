@@ -1,0 +1,102 @@
+/* Colours to remember:
+Light: #e8e8e8
+Green for Headers: #4CB8A3
+Blue for links: #4974BB
+Background color: #252525
+ */
+body {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  /* text align needs to be put into the PARENT of elements we want to centre */
+  text-align: center;
+}
+
+hr {
+  border: none;
+  border-top: 5px dotted #e8e8e8;
+  width: 5%;
+  border-color: #e8e8e8;
+}
+
+h1 {
+  margin: 0;
+  font-family: "Sacramento";
+  font-size: 50px;
+}
+
+h2 {
+  font-family: "Montserrat";
+  color: #e8e8e8;
+}
+
+h3 {
+  font-family: "Montserrat";
+  color: #e8e8e8;
+}
+
+p{
+  color: #397d68;
+}
+
+.top-container {
+  background-color: #252525;
+  color: #e8e8e8;
+  margin: 0;
+}
+
+.space-cat{
+  text-align: center;
+  vertical-align: bottom;
+  width: 700px;
+}
+
+.Header{
+  position: relative;
+  top: 100px;
+}
+
+.middle-container {
+  background-color: #4CB8A3;
+  margin: 0;
+  padding: 50px;
+}
+
+.bottom-container {
+  background-color: #4974BB;
+  margin: 0;
+  padding: 50px;
+}
+
+.pro {
+  color: #4974BB;
+}
+
+.art{
+  color: #4CB8A3;
+}
+
+.profile-image{
+  height: 200px;
+  border-radius: 50%;
+}
+
+.web-gif{
+  width: 400px;
+  padding: 0;
+}
+
+.subtitle{
+  color: #e8e8e8;
+  margin: 0;
+  position: relative;
+  bottom: 15px;
+  left: 30px;
+}
+
+.earth-img{
+  height: 300px;
+}
+
+.credit{
+  color: #252525;
+}
